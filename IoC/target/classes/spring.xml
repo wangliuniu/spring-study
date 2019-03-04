@@ -1,0 +1,94 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- 定义 -->
+    <bean id="messageServiceImpl"
+          class="com.spring.IoC.di.MessageServiceImpl">
+        <constructor-arg name="username" value="way lau"/>
+        <constructor-arg name="age" value="30"/>
+    </bean>
+    <bean id="messagePrinter" class="com.spring.IoC.di.MessagePrinter">
+        <constructor-arg name="service" ref="messageServiceImpl"/>
+    </bean>
+
+    <bean id="car1" class="com.spring.IoC.di.Car">
+        <property name="brand" value="宝马"/>
+        <property name="color" value="白色"/>
+        <property name="parameter" value="3.5"/>
+    </bean>
+
+    <bean id="car2" class="com.spring.IoC.di.Car">
+        <property name="brand" value="奔驰"/>
+        <property name="color" value="黑色"/>
+        <property name="parameter" value="3.5"/>
+    </bean>
+
+    <bean id="car3" class="com.spring.IoC.di.Car">
+        <property name="brand" value="保时捷"/>
+        <property name="color" value="白色"/>
+        <property name="parameter" value="3.5"/>
+    </bean>
+
+    <bean id="boss1" class="com.spring.IoC.di.Boss">
+        <property name="name" value="马云"/>
+        <property name="company" value="阿里巴巴"/>
+        <property name="car" ref="car1"/>
+        <property name="hobbies">
+            <list>
+                <value>游泳</value>
+                <value>吃饭</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="boss2" class="com.spring.IoC.di.Boss">
+        <property name="name" value="马化腾"/>
+        <property name="company" value="腾讯"/>
+        <property name="car" ref="car2"/>
+        <property name="hobbies">
+            <list>
+                <value>打游戏</value>
+                <value>睡觉</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="boss3" class="com.spring.IoC.di.Boss">
+        <property name="name" value="王健林"/>
+        <property name="company" value="万达"/>
+        <property name="car" ref="car3"/>
+        <property name="hobbies">
+            <list>
+                <value>看电视</value>
+                <value>玩手机</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="metting" class="com.spring.IoC.di.Meeting">
+        <property name="theme" value="学术讨论会议"/>
+        <property name="bosses">
+            <list>
+                <ref bean="boss1"/>
+                <ref bean="boss2"/>
+                <ref bean="boss3"/>
+            </list>
+
+        </property>
+    </bean>
+
+
+    <!--配置一个Max的bean-->
+    <bean id="max" class="com.spring.IoC.di.Max">
+            <constructor-arg name="a" value="5"/>
+        <constructor-arg name="b" value="3"/>
+    </bean>
+
+
+</beans>
+

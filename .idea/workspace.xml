@@ -1,54 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7202af92-3475-4acd-9089-418b9ed22819" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aop/aop.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aop/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aop/src/main/java/com/spring/aop/Car.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aop/src/main/java/com/spring/aop/Hello.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aop/src/main/java/com/spring/aop/HelloApp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aop/src/main/java/com/spring/aop/HelloImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aop/src/main/java/com/spring/aop/Move.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aop/src/main/java/com/spring/aop/MoveApp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aop/src/main/java/com/spring/aop/MyBeforeAdvice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aop/src/main/java/com/spring/aop/Tank.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aop/src/main/java/com/spring/aop/TankProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aop/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aop/src/main/resources/spring.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quickstart/target/classes/com/spring/App.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="7202af92-3475-4acd-9089-418b9ed22819" name="Default" comment="commit aop module">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IoC/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/IoC/src/main/resources/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IoC/src/main/resources/login.xml" afterPath="$PROJECT_DIR$/IoC/src/main/resources/login.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IoC/src/main/resources/spring.xml" afterPath="$PROJECT_DIR$/IoC/src/main/resources/spring.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/IoC/src/main/java/com/spring/IoC/di/Application.java" afterPath="$PROJECT_DIR$/IoC/src/main/java/com/spring/aop/IoC/di/Application.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/IoC/src/main/java/com/spring/IoC/di/Boss.java" afterPath="$PROJECT_DIR$/IoC/src/main/java/com/spring/aop/IoC/di/Boss.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/IoC/src/main/java/com/spring/IoC/di/Car.java" afterPath="$PROJECT_DIR$/IoC/src/main/java/com/spring/aop/IoC/di/Car.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/IoC/src/main/java/com/spring/IoC/di/Max.java" afterPath="$PROJECT_DIR$/IoC/src/main/java/com/spring/aop/IoC/di/Max.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/IoC/src/main/java/com/spring/IoC/di/Meeting.java" afterPath="$PROJECT_DIR$/IoC/src/main/java/com/spring/aop/IoC/di/Meeting.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/IoC/src/main/java/com/spring/IoC/di/MeetingApp.java" afterPath="$PROJECT_DIR$/IoC/src/main/java/com/spring/aop/IoC/di/MeetingApp.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/IoC/src/main/java/com/spring/IoC/di/MessagePrinter.java" afterPath="$PROJECT_DIR$/IoC/src/main/java/com/spring/aop/IoC/di/MessagePrinter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/IoC/src/main/java/com/spring/IoC/di/MessageService.java" afterPath="$PROJECT_DIR$/IoC/src/main/java/com/spring/aop/IoC/di/MessageService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/IoC/src/main/java/com/spring/IoC/di/MessageServiceImpl.java" afterPath="$PROJECT_DIR$/IoC/src/main/java/com/spring/aop/IoC/di/MessageServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/IoC/src/main/java/com/spring/login/User.java" afterPath="$PROJECT_DIR$/IoC/src/main/java/com/spring/aop/login/User.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/IoC/src/main/java/com/spring/login/UserLogin.java" afterPath="$PROJECT_DIR$/IoC/src/main/java/com/spring/aop/login/UserLogin.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/IoC/src/test/java/com/spring/IoC/di/MaxTest.java" afterPath="$PROJECT_DIR$/IoC/src/test/java/com/spring/aop/IoC/di/MaxTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/IoC/src/test/java/com/spring/login/UserLoginTest.java" afterPath="$PROJECT_DIR$/IoC/src/test/java/com/spring/aop/login/UserLoginTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/IoC/quickstart/App.java" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/aop/IoC/quickstart/App.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/IoC/quickstart/annotation/Hello.java" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/aop/IoC/quickstart/annotation/Hello.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/IoC/quickstart/annotation/HelloApp.java" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/aop/IoC/quickstart/annotation/HelloApp.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/IoC/quickstart/annotation/Phone.java" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/aop/IoC/quickstart/annotation/Phone.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/IoC/quickstart/annotation/Student.java" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/aop/IoC/quickstart/annotation/Student.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/IoC/quickstart/annotation/StudentApp.java" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/aop/IoC/quickstart/annotation/StudentApp.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/IoC/quickstart/xml/HelloWorld.java" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/aop/IoC/quickstart/xml/HelloWorld.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/IoC/quickstart/xml/HelloWorldApp.java" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/aop/IoC/quickstart/xml/HelloWorldApp.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/IoC/quickstart/xml/Phone.java" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/aop/IoC/quickstart/xml/Phone.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/IoC/quickstart/xml/Student.java" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/aop/IoC/quickstart/xml/Student.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/IoC/quickstart/xml/StudentApp.java" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/aop/IoC/quickstart/xml/StudentApp.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart/src/test/java/com/spring/IoC/quickstart/AppTest.java" afterPath="$PROJECT_DIR$/quickstart/src/test/java/com/spring/aop/IoC/quickstart/AppTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/quickstart/target/" />
     <ignored path="$PROJECT_DIR$/IoC/target/" />
@@ -205,10 +159,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="y" value="32" />
+    <option name="width" value="1366" />
+    <option name="height" value="696" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -972,8 +925,16 @@
       <workItem from="1551695329595" duration="1063000" />
       <workItem from="1551916843606" duration="904000" />
       <workItem from="1551917811018" duration="191000" />
-      <workItem from="1551918142284" duration="6286000" />
+      <workItem from="1551918142284" duration="6923000" />
     </task>
+    <task id="LOCAL-00001" summary="commit aop module">
+      <created>1551924775681</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551924775681</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -991,10 +952,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25464000" />
+    <option name="totallyTimeSpent" value="26101000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="0" y="32" width="1366" height="696" extended-state="1" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1018,7 +979,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33732876" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2677761" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27105665" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1035,6 +996,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit aop module" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit aop module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1350,8 +1315,8 @@
         <state relative-caret-position="184">
           <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
           <folding>
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="false" />
+            <element signature="e#191#192#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1385,8 +1350,8 @@
         <state relative-caret-position="161">
           <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
           <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="false" />
+            <element signature="e#215#216#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1412,7 +1377,7 @@
         <state relative-caret-position="178">
           <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>

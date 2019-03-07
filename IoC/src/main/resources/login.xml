@@ -9,12 +9,12 @@
 
 
 
-<bean id="user" class="com.spring.login.User">
+<bean id="user" class="com.spring.aop.login.User">
         <constructor-arg name="account" value="admin"/>
         <constructor-arg name="password" value="111"/>
     </bean>
 
-    <bean id="userlogin" class="com.spring.login.UserLogin">
+    <bean id="userlogin" class="com.spring.aop.login.UserLogin">
         <property name="user" ref="user"/>
     </bean>
 </beans>

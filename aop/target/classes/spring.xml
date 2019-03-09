@@ -10,16 +10,30 @@
     <!--配置一个Hello的bean,等同于Hello hello=new HelloImpl();-->
     <bean id="hello" class="com.spring.aop.HelloImpl"/>
     <bean id="myBeforeAdvice" class="com.spring.aop.MyBeforeAdvice"/>
-    <aop:config>
+   <aop:config>
         <aop:aspect id="before" ref="myBeforeAdvice">
+            <aop:pointcut id="myPointCut" expression="execution(* com.spring.aop.*.*(..))"/>
+            <aop:before method="beforeMethod" pointcut-ref="myPointCut"/>
+        </aop:aspect>
+    </aop:config>
+      <bean id="userDao" class="com.spring.aop.UserDaoImpl"/>
+    <bean id="BeforeAdvice" class="com.spring.aop.BeforeAdvice"/>
+    <aop:config>
+        <aop:aspect id="before" ref="BeforeAdvice">
             <aop:pointcut id="myPointCut" expression="execution(* com.spring.aop.*.*(..))"/>
             <aop:before method="beforeMethod" pointcut-ref="myPointCut"/>
         </aop:aspect>
 
     </aop:config>
-        <!---->
+
+
+
+
 
 
 
 </beans>
+
+
+
 

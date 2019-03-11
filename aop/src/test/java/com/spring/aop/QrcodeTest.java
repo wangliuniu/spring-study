@@ -22,7 +22,7 @@ public class QrcodeTest {
         QrConfig config = new QrConfig(300, 300);
 // 设置边距，既二维码和背景之间的边距
         config.setMargin(3);
-       config.setImg("d:/logo.jpg");
+        config.setImg("d:/logo.jpg");
 // 设置前景色，既二维码颜色（青色）
         Color foreColor = new Color(240, 153, 46);
         Color bgColor = new Color(174, 214, 122);

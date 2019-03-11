@@ -21,6 +21,8 @@
     <junit.version>4.12</junit.version>
     <log4j.version>1.2.17</log4j.version>
     <slf4j.version>1.7.12</slf4j.version>
+    <hutool.version>4.5.1</hutool.version>
+    <google.zxing.version>3.3.3</google.zxing.version>
   </properties>
 
 
@@ -72,6 +74,18 @@
           <version>5.1.5.RELEASE</version>
           <scope>compile</scope>
       </dependency>
+    <!--hutool工具依赖-->
+    <dependency>
+      <groupId>cn.hutool</groupId>
+      <artifactId>hutool-all</artifactId>
+      <version>${hutool.version}</version>
+
+    </dependency>
+    <dependency>
+      <groupId>com.google.zxing</groupId>
+      <artifactId>core</artifactId>
+      <version>${google.zxing.version}</version>
+    </dependency>
 
   </dependencies>
 

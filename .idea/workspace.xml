@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7202af92-3475-4acd-9089-418b9ed22819" name="Default" comment="commit aop module">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_4_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_core_3_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aop/src/main/java/com/spring/aop/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aop/src/main/java/com/spring/aop/Fighter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aop/src/main/java/com/spring/aop/ImageCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aop/src/main/java/com/spring/aop/ImageCopyApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aop/src/main/java/com/spring/aop/ImageHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aop/src/main/java/com/spring/aop/Tiger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aop/src/test/java/com/spring/aop/QrcodeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aop/aop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/aop/aop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aop/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aop/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aop/src/main/resources/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aop/target/classes/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aop/target/classes/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/my_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/my_log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/src/test/java/com/spring/aop/QrcodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/aop/src/test/java/com/spring/aop/QrcodeTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/quickstart/target/" />
     <ignored path="$PROJECT_DIR$/IoC/target/" />
@@ -87,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aop/src/test/java/com/spring/aop/QrcodeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+            <state relative-caret-position="175">
+              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -284,7 +271,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552273467974" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552274219292" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -580,7 +567,7 @@
       <workItem from="1551945904367" duration="368000" />
       <workItem from="1551948215133" duration="949000" />
       <workItem from="1551950107374" duration="3920000" />
-      <workItem from="1552262549626" duration="10937000" />
+      <workItem from="1552262549626" duration="11488000" />
     </task>
     <task id="LOCAL-00001" summary="commit aop module">
       <created>1551924775681</created>
@@ -625,13 +612,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48102000" />
+    <option name="totallyTimeSpent" value="48653000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.301059" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.301059" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Designer" order="3" />
@@ -642,7 +628,7 @@
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3270869" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28960818" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28960818" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39863715" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -651,7 +637,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Spring" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.29982963" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.19591141" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32879046" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
@@ -1052,8 +1038,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aop/src/test/java/com/spring/aop/QrcodeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        <state relative-caret-position="175">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

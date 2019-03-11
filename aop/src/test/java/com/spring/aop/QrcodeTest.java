@@ -19,15 +19,10 @@ import static org.junit.Assert.*;
 public class QrcodeTest {
 
     public static void main(String[] args) {
-        QrCodeUtil.generate(//
-            "https://www.jianshu.com/u/d0349e439625", //二维码内容
-            QrConfig.create().setImg("d:/logo.jpg"), //附带logo
-            FileUtil.file("d:/qrcodeWithLogo.jpg")//写出到的文件
-    );
         QrConfig config = new QrConfig(300, 300);
 // 设置边距，既二维码和背景之间的边距
         config.setMargin(3);
-
+       config.setImg("d:/logo.jpg");
 // 设置前景色，既二维码颜色（青色）
         Color foreColor = new Color(240, 153, 46);
         Color bgColor = new Color(174, 214, 122);
